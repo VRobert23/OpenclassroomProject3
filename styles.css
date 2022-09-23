@@ -19,3 +19,26 @@
 main{
     margin: 0rem 1rem;
 }
+.d_1{
+    margin-top: 2rem;
+    text-align: center;
+}
+.t_1{
+    font-family: 'Roboto'; font-size: x-large; font-weight: bold;
+}
+.p_1{
+    margin-top: 1rem;
+    font-family: 'Roboto';
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.btn_1{
+    border-radius: 50px;
+    border-color: white;
+    padding: 10px 15px;
+    background: linear-gradient(#FF79DA,#9356DC);
+    font-family: 'Roboto';
+}
