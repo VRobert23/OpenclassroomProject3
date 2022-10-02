@@ -39,7 +39,7 @@
     font-family: 'Roboto';
 }
 .fonction{
-    margin: 2rem 1rem 0rem 1rem;
+    margin: 3rem 1rem 0rem 1rem;
 }
 .fonction_title{
     font-family: 'Roboto'; font-size: large; font-weight: bold;
@@ -84,4 +84,71 @@ margin-left: -1rem;
 }
 .fonction_texte_1{
     margin-left: 2px;
+}
+.restaurants{
+    margin: 0rem 1rem;
+}
+.restaurants_title{
+    font-family: 'Roboto'; font-size: large; font-weight: bold;
+    margin: 6rem 0rem 1rem 0rem;
+}
+.div_img_palette, .div_img_note{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+}
+.div_txt_palette{
+    background: rgb(137 255 204);
+    position: absolute;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin: 0 auto;
+    left: 57%;
+    right: 0;
+    top: 62%;
+    color: rgb(22, 140, 44);
+    padding: 5px;
+    width: 20%;
+}
+.div_txt_note{
+    background: rgb(137 255 204);
+    position: absolute;
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: bold;
+    margin: 0 auto;
+    left: 57%;
+    right: 0;
+    top: 78%;
+    color: rgb(22, 140, 44);
+    padding: 5px;
+    width: 20%;
+}
+.img_restaurants{
+    width: 100%;
+    object-fit: cover;
+    height: 125px;
+    border-radius: 20px 20px 0px 0px;
+}
+.article_restaurants{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 10px 10px lightgrey;
+    margin-bottom: 15px;
+}
+.title_restaurants{
+    font-family: 'Roboto'; font-size: medium; font-weight: bold;
+    margin: 10px 0px 10px 10px;
+}
+.p_restaurants{
+    font-family: 'Roboto'; 
+    margin: 0px 0px 10px 10px;
+}
+.icone_restaurants{
+    display: flex;
+    align-items: center;
+    font-size: x-large;
+    margin: 0px 20px 10px 0px;
 }
