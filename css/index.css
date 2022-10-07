@@ -88,19 +88,21 @@ margin-left: -1rem;
 .restaurants{
     margin: 0rem 1rem 5rem 1rem;  
 }
-.article_restaurants{
+.anchor_resteaurants {
     position: relative;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    border-radius: 20px ;
+    border-radius: 20px;
     box-shadow: 3px 10px 10px lightgrey;
     overflow: hidden;
     width: 100%;
     margin-bottom: 1rem;
+    text-decoration: none;
+    color: black;
 }
-.restaurants_title{
+.title_restaurants{
     font-family: 'Roboto'; font-size: large; font-weight: bold;
     margin: 6rem 0rem 1rem 0rem;
 }
@@ -112,7 +114,7 @@ margin-left: -1rem;
 .descripton_restaurants{
     flex-grow: 1;
 }
-.title_restaurants{
+.name_restaurants{
     font-family: 'Roboto'; font-size: medium; font-weight: bold;
     margin: 10px 0px 10px 10px;
 }
