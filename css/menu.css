@@ -1,0 +1,16 @@
+.logo_1{
+    display: flex;
+    gap: 3rem;
+    align-items: center;   
+}
+.logo{
+    width: 45%;
+    padding: 1rem 0rem;
+}
+.menu_arrow{
+    font-size: larger;
+    margin-left: 1rem;
+}
+.img_restaurants{
+    width: 100%;
+}
