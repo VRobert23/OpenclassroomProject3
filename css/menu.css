@@ -15,11 +15,12 @@
     font-family: 'Roboto';
 }
 .menu_head{
-    position: relative;
     display: flex;
     flex-wrap: wrap;
-    overflow: hidden;
-    width: 100%;
+    background: whitesmoke;
+}
+.cadre_restaurants{
+    position: relative;
     background: whitesmoke;
 }
 .restaurant_title{
@@ -28,7 +29,7 @@
     justify-content: space-around;
     font-weight: bold;
     font-size: x-large;
-    bottom: 306px;
+    bottom: -20px;
     width: 100%;
     border-radius: 30px 30px 0px 0px;
     background-color: whitesmoke;
@@ -44,11 +45,12 @@
     display: flex;
     position: relative;
     margin: 2rem 1rem;
+    width: 100%;
 }
 .menu_plat::before{
     content: "";
     height: 2px;
-    width: 60%;
+    width: 15%;
     position: absolute;
     bottom: -6px;
     left: 0;
@@ -66,7 +68,6 @@
     flex-wrap: wrap;
     flex-direction: row;
     gap: 4px;
-    column-gap: 17px;
     justify-content: space-between;
     background-color: white;
     border-radius: 15px 15px 15px 15px;
@@ -75,7 +76,8 @@
 }
 .plat_title{
     font-weight: bold;
-    font-size: larger;
+    font-size: medium;
+    width: 100%;
 }
 .plat_description{
     font-size: smaller;
