@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto';
+    box-sizing: border-box;
 }
 .logo_1{
     display: flex;
@@ -7,7 +8,7 @@ body{
     align-items: center;   
 }
 .logo{
-    width: 45%;
+    width: 145px;
     padding: 1rem 0rem;
 }
 .menu_arrow{
@@ -29,14 +30,15 @@ body{
 .restaurant_title{
     position: absolute;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-weight: bold;
     font-size: x-large;
     bottom: -20px;
     width: 100%;
     border-radius: 30px 30px 0px 0px;
     background-color: whitesmoke;
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
+    box-sizing: border-box;
 }
 .img_restaurants{
     width: 100%;
@@ -53,7 +55,7 @@ body{
 .menu_plat::before{
     content: "";
     height: 2px;
-    width: 15%;
+    width: 40px;
     position: absolute;
     bottom: -6px;
     left: 0;
@@ -63,6 +65,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
     margin-bottom: 1rem;
 }
 .li_plat{
@@ -75,7 +78,7 @@ body{
     background-color: white;
     border-radius: 15px 15px 15px 15px;
     padding: 10px;
-    box-shadow: 0px 15px 10px lightgrey;
+    box-shadow: 0px 15px 20px lightgrey;
 }
 .plat_title{
     font-weight: bold;
@@ -83,7 +86,11 @@ body{
     width: 100%;
 }
 .plat_description{
+    font-size: small;
+}
+.plat_prix{
     font-size: smaller;
+    font-weight: bold;
 }
 .grp_btn{
     display: flex;
@@ -109,7 +116,7 @@ body{
     padding-bottom: 2rem;
 }
 .logo_footer{
-    width: 30%;
+    width: 110px;
     filter: brightness(100);
     margin: 1rem 0rem 1rem 1rem;
 }
