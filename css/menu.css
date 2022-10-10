@@ -1,3 +1,6 @@
+body{
+    font-family: 'Roboto';
+}
 .logo_1{
     display: flex;
     gap: 3rem;
@@ -11,8 +14,8 @@
     font-size: larger;
     margin-left: 1rem;
 }
-.main{
-    font-family: 'Roboto';
+.retour_index{
+    color: black;
 }
 .menu_head{
     display: flex;
@@ -81,4 +84,46 @@
 }
 .plat_description{
     font-size: smaller;
+}
+.grp_btn{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.btn{
+    width: 50%;
+    height: 35%;
+    margin: 2rem 0rem 3rem 0rem;
+    border-radius: 50px;
+    border-color: whitesmoke;
+    background: linear-gradient(#FF79DA,#9356DC);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn_texte{
+    color: white;
+}
+.footer{
+    background-color: black;
+    padding-bottom: 2rem;
+}
+.logo_footer{
+    width: 30%;
+    filter: brightness(100);
+    margin: 1rem 0rem 1rem 1rem;
+}
+.ul_footer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.li_footer{
+    display: flex;
+    gap: 1rem;
+    color: white;
+    margin-left: 1rem;
+}
+.icone_footer{
+    font-size: small;
 }
