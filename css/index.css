@@ -1,5 +1,7 @@
 body{
     font-family: 'Roboto';
+    margin: 0 auto
+    max-width: 1200px
 }
 .logo_1{
     display: flex;justify-content: center;
