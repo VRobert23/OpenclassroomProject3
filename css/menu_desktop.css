@@ -1,0 +1,32 @@
+.logo_1{
+    gap: 21rem;
+}
+
+.logo{
+    width: 250px;
+    padding: 1rem 0rem;
+}
+.restaurant_title {
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    padding: 2rem;
+}
+.ul_plat {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    align-items: baseline;
+}
+.li_plat {
+    width: 80%;
+}
+.menu_plat {
+    justify-content: flex-start;
+    margin: 2rem 0rem;
+    padding-left: 3rem;
+}
+.menu_plat::before {
+    left: 48px;
+}

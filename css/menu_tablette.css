@@ -1,0 +1,50 @@
+.logo_1{
+    gap: 17rem;
+}
+.restaurant_title{
+    justify-content: space-between;
+    padding: 2rem 2rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    bottom: -10px;
+}
+.menu_div{
+    width: 100%;
+}
+.menu_title{
+    display: flex;
+    justify-content: center;
+}
+.icone_restaurants{
+    display: flex;
+    justify-content: center;
+}
+.ul_plat{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 100%;
+    align-items: center;
+}
+.menu_epd{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+.menu_plat{
+    justify-content: flex-start;
+    margin: 2rem 0rem;
+    padding-left: 2rem;
+}
+.menu_plat::before {
+    left: 33px;
+}
+.li_plat {
+    width: 70%;
+}
+.btn {
+    width: 150px;
+    height: 40px;
+}    
