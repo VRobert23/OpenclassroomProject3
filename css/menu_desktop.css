@@ -20,13 +20,30 @@
     align-items: baseline;
 }
 .li_plat {
-    width: 80%;
+    width: 90%;
+    margin: 0rem 1rem;
+}
+.menu_epd{
+    width: calc(33% - (2/3)*1rem);
 }
 .menu_plat {
     justify-content: flex-start;
     margin: 2rem 0rem;
-    padding-left: 3rem;
 }
-.menu_plat::before {
-    left: 48px;
+.plat_title {
+    font-weight: bold;
+    font-size: medium;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-bottom: 5px;
 }
+.plat_description {
+    font-size: small;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-bottom: 1px;
+    display: flow-root;
+}
+

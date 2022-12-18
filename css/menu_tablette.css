@@ -27,11 +27,11 @@
     align-items: center;
 }
 .menu_epd{
+    width: 100%;
     gap: 1rem;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    align-items: center;
+    align-items: flex-start;
 }
 .menu_plat{
     justify-content: flex-start;
@@ -42,7 +42,22 @@
     left: 33px;
 }
 .li_plat {
-    width: 70%;
+    width: 90%;
+    margin: 0rem 2rem;
+}
+.plat_description {
+    font-size: small;
+    white-space: unset;
+    overflow: unset;
+    text-overflow: unset;
+    display: contents;
+}
+.plat_title {
+    font-weight: bold;
+    font-size: medium;
+    overflow: unset;
+    text-overflow: unset;
+    white-space: unset;
 }
 .btn {
     width: 150px;

@@ -3,6 +3,55 @@ body{
     margin: 0 auto;
     max-width: 1024px
 }
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(255,255,255,.8);
+    -webkit-animation: loader 2s linear forwards;
+    animation: loader 2s linear forwards;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.spinner {
+    width: 120px;
+    height: 120px;
+    display: block;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #FF79DA;
+    border-bottom: 16px solid #9356DC;
+    animation: spin 1.2s linear infinite;
+}
+
+@keyframes loader {
+    0% {
+        opacity: 1;
+    }
+    99% {
+        opacity: 1;
+    }
+    100% {
+        visibility: hidden;
+        opacity: 0;
+    }
+}
+  
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
 .logo_1{
     display: flex;justify-content: center;
     box-shadow: 0px 2px 2px darkgrey;
@@ -37,9 +86,14 @@ body{
 .btn{
     margin-top: 1rem;
     border-radius: 50px;
-    border-color: white;
+    border: none;
     padding: 10px 15px;
-    background: linear-gradient(#FF79DA,#9356DC);
+    background: linear-gradient(#FF79DA,#9356DC); 
+    box-shadow: 0px 10px 10px lightgrey;  
+}
+.btn:hover {
+    filter: brightness(1.2) contrast(2);
+    box-shadow: 0px 10px 10px #646464;
 }
 .btn_texte{
     color: white;
@@ -61,8 +115,9 @@ body{
     padding: 1rem 0rem 1rem 0rem;
     box-shadow: 3px 10px 10px lightgrey;
 }
-.fonction_li:last-child{
+.fonction_li:hover{
     background-color: #9356dc2b;
+    color: #9356DC;
 }
 .fonction_icone{
     font-size: larger;
@@ -72,9 +127,6 @@ body{
 }
 .fonction_icone_paste{
 margin-left: -1rem;
-}
-.fonction_icone_color{
-    color: #9356DC;
 }
 .fonction_numero{
     border-style: solid;
@@ -126,16 +178,46 @@ margin-left: -1rem;
     margin: 10px 0px 10px 16px;
 }
 .lieu_restaurants{
-    
     margin: 0px 0px 16px 16px;
 }
-.icone_restaurants{
+.icone_restaurants_1,.icone_restaurants_2,.icone_restaurants_1:hover,.icone_restaurants_2:hover{
     font-size: x-large;
-    margin: 0px 20px 10px 0px;
 }
 .like_restaurants{
-    background-color: white;
+    background-color:white;
     border: none;
+    position: relative;
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    text-decoration: none;
+}
+.icone_restaurants_1,.icone_restaurants_2{
+    position: absolute;
+    left: -10px;
+}
+.icone_restaurants_1{
+    opacity: 1;
+    background: black;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.icone_restaurants_2{
+    opacity: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg,#FF79DA,#9356DC 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.icone_restaurants_1:hover{
+    opacity: 0;
+    transition: opacity .2s;
+}
+.icone_restaurants_2:hover{
+    opacity: 1;
+    transition: opacity 1s;
 }
 .nouveau{
     background: rgb(137 255 204);
@@ -170,4 +252,8 @@ margin-left: -1rem;
 }
 .icone_footer{
     font-size: small;
+}
+.a_contact{
+    text-decoration: none;
+    color: white;
 }
