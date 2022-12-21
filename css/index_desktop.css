@@ -1,0 +1,43 @@
+.logo{
+    width: 250px;
+    padding: 1rem 0rem;
+}
+.fonction_title {
+    justify-content: center;
+    display: flex;
+    font-family: 'Roboto';
+    font-size: x-large;
+    font-weight: bold;
+    margin-bottom: 2rem;   
+}
+.fonction_ul{
+    display: flex;
+    justify-content: space-around;
+}
+.fonction_li{
+    padding: 1rem 2rem 1rem 0rem;
+}
+.restaurants {
+    margin-bottom: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.title_restaurants {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Roboto';   
+    font-size: x-large;
+    font-weight: bold;
+    margin: 6rem 0rem 1rem 0rem;   
+}
+.article_restaurants{
+    width: calc( 50% - 2rem);
+    margin-right: 2rem;
+}
+.anchor_resteaurants {
+    position: relative;
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
