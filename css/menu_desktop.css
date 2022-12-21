@@ -1,8 +1,8 @@
-.logo_1{
+.logo_1 {
     gap: 21rem;
 }
 
-.logo{
+.logo {
     width: 250px;
     padding: 1rem 0rem;
 }
@@ -12,18 +12,18 @@
     flex-direction: row;
     padding: 2rem;
 }
-.ul_plat {
+.div_plat {
     display: flex;
     flex-direction: row;
     gap: 1rem;
     width: 100%;
     align-items: baseline;
 }
-.li_plat {
+.div_plat_1 {
     width: 90%;
     margin: 0rem 1rem;
 }
-.menu_epd{
+.menu_epd {
     width: calc(33% - (2/3)*1rem);
 }
 .menu_plat {

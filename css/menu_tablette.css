@@ -1,39 +1,39 @@
-.logo_1{
+.logo_1 {
     gap: 17rem;
 }
-.restaurant_title{
+.restaurant_title {
     justify-content: space-between;
     padding: 2rem 2rem;
     flex-wrap: wrap;
     flex-direction: row;
     bottom: -10px;
 }
-.menu_div{
+.menu_div {
     width: 100%;
 }
-.menu_title{
+.menu_title {
     display: flex;
     justify-content: center;
 }
-.icone_restaurants{
+.icone_restaurants {
     display: flex;
     justify-content: center;
 }
-.ul_plat{
+.div_plat {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 100%;
     align-items: center;
 }
-.menu_epd{
+.menu_epd {
     width: 100%;
     gap: 1rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
 }
-.menu_plat{
+.menu_plat {
     justify-content: flex-start;
     margin: 2rem 0rem;
     padding-left: 2rem;
@@ -41,7 +41,7 @@
 .menu_plat::before {
     left: 33px;
 }
-.li_plat {
+.div_plat_1 {
     width: 90%;
     margin: 0rem 2rem;
 }
