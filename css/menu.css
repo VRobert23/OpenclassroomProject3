@@ -97,7 +97,6 @@ body {
     display: flex;
     position: relative;
     margin: 2rem 0rem 2rem 1rem;
-    width: 100%;
 }
 .menu_plat::before {
     content: "";
@@ -182,7 +181,7 @@ body {
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.li_plat:hover>.plat_check>.fa-circle-check {
+.div_plat_1:hover>.plat_check>.fa-circle-check {
     animation-name: spin;
     animation-duration: 1s;
     animation-fill-mode: forwards ;
